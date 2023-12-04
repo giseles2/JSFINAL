@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Página de Login</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="input-group">
+          <label for="password">Senha</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="captcha-container">
+          <input type="checkbox" name="" id="" />
+          <p>Você é humano?</p>
+        </div>
+        <p>Não tem uma conta? <a href="./registro.html"> Cadastre-se </a></p>
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </body>
+  <script src="login.js"></script>
+</html>
